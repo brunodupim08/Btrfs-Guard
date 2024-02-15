@@ -59,7 +59,7 @@ function main() {
     local subvolume="$2"
     local drive_point="/run/snapshot-$uuid"
     local subvolume_point="$drive_point/$subvolume"
-    local snap_vol_paste="$drive_point/snapshot/$subvolume"
+    local snap_vol_paste="$drive_point/btrfs-guard/snapshots/$subvolume"
     local date=$(date +%Y-%m-%d_%H-%M-%S)
 
     # Check if mount directory exists, if not, create it
