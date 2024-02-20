@@ -91,39 +91,8 @@ function version(){
     local version="\033[1;94mv$version\033[0m"
     local author="\033[1;94mBruno Dupim\033[0m"
     local project="\033[1;94m$project\033[0m"
-    echo -e "\033[1;94m
-                       .                                  .                               
-                       c                                 .,             .,                
-                        ;.              ......         .,,.   ..,;::cccl;                 
-                         .::;'..    .;cllllllll:,.  .,:,....;clll:;'                      
-               ...'...     .':ccc.'cllllllllllllll;.cc.  .clll;'.                         
-                    ',::,.    'l;;lclllllllllll:.ll'lc  'llll.              .......       
-                       .cl;    l:;l.:llllllllll: ll;:l. llll'           .':loc            
-   .                    .loc..c;:oc.coooooooooool;lo:;c.oooo,         'coo:.              
-    ;                    :oo:;::oocoooooooooooooooooo'l;coool.      ,loo:.                
-    ,o:,,,:cclcc;'.      looo'c;oooooooooooooooooool,cll,loooo;.  .looo,.                 
-     .ooooooooooooo:.   ,oooc,l;.ooo,cooooooooc,ol,   'll;:ooooo;.looo;                   
-              ':odddo'.:oooo,l;  .;oo,:oooooo;,l,';;,.  llc;loooooc:lo                    
-                .cdcc:ooool;cc  ;,..:o':oooo:,c.;;,coo   ooo::loooooc,                    
-                ..:looooo::oo. ::.c,.lo.cool.oc;':c.lo   ooooo':oddddo,                   
-                .cdddddl,looo'  :'OKxd'c;od;o,c0lNl.    'oooo::d;dddddd'                  
-                cdddddo;;ooool.   :oox. :odo'.lkl.    .:ooooc;dd,ddddddo                  
-               .dddddd;do;loooo,.   ;ddl:ddd:ddd;  .,cooooo::dd:lddddddd                  
-               ,dddddd;dddc:cooool:,.odddddddddd'dccccllcccldd:lddddddd,                  
-               .dddddd;xxxxxocccccc;:dddlddoodddo:ldxdoodxxoccdddddddd;                   
-                odddddlcxxxxxxxxxdccdddd:dd:ddddddoccllllcclddddddddd    ..           ,   
-         ...    .ddddddlcloddollclddddddoxdoxxxxxdxxxxxxxxxxxxxxxxd..'cdxxxxdc;'...,cd    
-     .;coxxxdl.  .dxxxxxxdlllldxxdoxxxxxxxxxxxxxoclxxxxxxxxxxxxxo;.'oxxxxxxddxxxxxxxo     
-           .xxx,   :xxxxxxxxxxxxd:lxxxxxxxxxxxxx.oxxxxxxxxxxxo:' .lxxxx;                  
-             cxxc   .:oxxxxxxxc,.cxxxxxxxxxxxxxxc..,;::::;,..  .cxxxxo                    
-              :xxd;     ',,'.. 'oxxxxxxxxxxxxxxxxxl;'.......,:oxxxxx,                     
-               xxxxdc'.    .':dxxxxxxxd:,.:dxxxxxxxxxxxxxxxxxxxxxxx.                      
-                dxxxxxxxoodxxxxxxxxxd,     .:xxxxxxxxxxxxxxxxxxxxx.                       
-                  oxxxxxxxxkxkxxxxd:..       .;coxkkkkkkkkkkkkkd                          
-                    :lxkkkkkkkkdl;..           ...';:cloooo;                              
-                          .,'.                                                   
-    \033[0m"
-    echo -e "\033[1;94m
+    
+    echo -e "
     #=============#
     # Btrfs Guard #
     #=============#
